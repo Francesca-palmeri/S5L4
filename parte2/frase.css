@@ -18,6 +18,7 @@ main{
     height: 100vh;
     font-family: "Bree Serif", sans-serif;
     font-size: 1.8em;
+    text-align: left;
 }
 
 #testoAlternato{
@@ -34,8 +35,6 @@ main{
 }
 
 .parole{
-   
-    
     color: #6b969d;
     position: absolute;
     top: -50;
@@ -45,6 +44,7 @@ main{
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-delay: 0s;
+
 }
 
 .parole:nth-child(1){
@@ -62,7 +62,7 @@ main{
 @keyframes paroleInMovimento{
     from {
 		color: transparent;
-		top: -50px;
+		bottom: -50px;
 	}
 
 	15% {
@@ -77,6 +77,7 @@ main{
 
     to{
         color:#6b969d;
+        
     }
 }
     
